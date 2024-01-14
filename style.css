@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(219, 0, 0);
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.05s;
+}
+
+h1{
+    position: relative;
+    font-size: 10vw;
+    /* text-align: center; */
+    font-weight: 900;
+    transform: skewX(-10deg);
+}
+
+h1::before {
+    content: "Abid Shahrier";
+    border: 2px solid red;
+    position: absolute;
+    /* color: rgb(255, 0, 0); */
+    left: -5px;
+    top: -5px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(238, 163, 163);
+    z-index: -1;
+    /* transform: ; */
+}
