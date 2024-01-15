@@ -23,6 +23,7 @@ html, body{
     height: 30px;
     width: 30px;
     background-color: red;
+    transform: translateX(-50%) translateY(-50%);
     mix-blend-mode: difference;
     border-radius: 50%;
     position: absolute;
