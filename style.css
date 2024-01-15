@@ -22,7 +22,7 @@ html, body{
 .cursor{
     height: 30px;
     width: 30px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.534);
     transform: translateX(-50%) translateY(-50%);
     mix-blend-mode: difference;
     border-radius: 50%;
